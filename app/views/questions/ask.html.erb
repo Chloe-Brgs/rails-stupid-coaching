@@ -1,0 +1,26 @@
+
+<div class="container">
+
+  <h1>Stupid Coaching</h1>
+
+  <h2>Ask your coach anything:</h2>
+  <form action="/answer" method="get" data-turbo="false">
+    <div class="row d-inline-flex  flex-row ">
+      <div class="">
+        <input type="text" name="question" class="form-control ">
+      </div>
+      <div class="">
+        <input type="submit" value="Ask!" class="btn btn-primary ">
+      </div>
+    </div>
+  </form>
+
+</div>
+
+<%#
+Triggers this request on submit :
+  GET /answer?question= something u typed %>
+
+<%# btn-block %>
+
+<%# JAMAIS REUSSI A LETTRE BOUTON SUR LE COTE !!!! %>
